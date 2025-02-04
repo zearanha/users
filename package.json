@@ -1,0 +1,21 @@
+{
+  "name": "conceitos-node-2.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Jose de Aranha",
+  "license": "ISC",
+  "description": "Back end do sistema de login",
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.3.1"
+  }
+}
